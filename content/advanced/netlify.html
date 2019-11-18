@@ -8,14 +8,14 @@
   <title>Lukas Test Book</title>
   <meta name="description" content="# Automatically building and hosting your book with Netlify[Netlify](https://www.netlify.com/) is a continuous deployment service that can **automatically bu...">
 
-  <link rel="canonical" href="/test_inginf_lecture/test_inginf_lecture/content/advanced/netlify.html">
-  <link rel="alternate" type="application/rss+xml" title="Lukas Test Book" href="/test_inginf_lecture/test_inginf_lecture/feed.xml">
+  <link rel="canonical" href="https://lu-kas.github.io//test_inginf_lecture/content/advanced/netlify.html">
+  <link rel="alternate" type="application/rss+xml" title="Lukas Test Book" href="https://lu-kas.github.io//test_inginf_lecture/feed.xml">
 
-  <meta property="og:url"         content="/test_inginf_lecture/test_inginf_lecture/content/advanced/netlify.html" />
+  <meta property="og:url"         content="https://lu-kas.github.io//test_inginf_lecture/content/advanced/netlify.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="Lukas Test Book" />
 <meta property="og:description" content="# Automatically building and hosting your book with Netlify[Netlify](https://www.netlify.com/) is a continuous deployment service that can **automatically bu..." />
-<meta property="og:image"       content="/test_inginf_lecture/images/logo/logo.png" />
+<meta property="og:image"       content="https://lu-kas.github.io//test_inginf_lecture/images/logo/logo.png" />
 
 <meta name="twitter:card" content="summary">
 
@@ -24,10 +24,10 @@
   {
   "@context": "http://schema.org",
   "@type": "NewsArticle",
-  "mainEntityOfPage": "/test_inginf_lecture/content/advanced/netlify.html",
+  "mainEntityOfPage": "https://lu-kas.github.io//test_inginf_lecture/content/advanced/netlify.html",
   "headline": "Lukas Test Book",
-  "datePublished": "2019-11-18T23:12:43+01:00",
-  "dateModified": "2019-11-18T23:12:43+01:00",
+  "datePublished": "2019-11-18T23:17:02+01:00",
+  "dateModified": "2019-11-18T23:17:02+01:00",
   "description": "# Automatically building and hosting your book with Netlify[Netlify](https://www.netlify.com/) is a continuous deployment service that can **automatically bu...",
   "author": {
     "@type": "Person",
@@ -38,14 +38,14 @@
     "name": "Data 100 at UC Berkeley",
     "logo": {
       "@type": "ImageObject",
-      "url": "/test_inginf_lecture",
+      "url": "https://lu-kas.github.io//test_inginf_lecture",
       "width": 60,
       "height": 60
     }
   },
   "image": {
     "@type": "ImageObject",
-    "url": "/test_inginf_lecture",
+    "url": "https://lu-kas.github.io//test_inginf_lecture",
     "height": 60,
     "width": 60
   }
@@ -330,7 +330,7 @@ function addParamToInternalLinks(hub) {
   var links = document.querySelectorAll("a").forEach(function(link) {
     var href = link.href;
     // If the link is an internal link...
-    if (href.search("") !== -1 || href.startsWith('/') || href.search("127.0.0.1:") !== -1) {
+    if (href.search("https://lu-kas.github.io/") !== -1 || href.startsWith('/') || href.search("127.0.0.1:") !== -1) {
       // Assume we're an internal link, add the hub param to it
       var params = getJsonFromUrl(href);
       if (params !== false) {
