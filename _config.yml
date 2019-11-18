@@ -16,14 +16,14 @@
 
 #######################################################################################
 # Jekyll site settings
-title: Jupyter Book
+title: Lukas Test Book
 author: The Jupyter Book Community
 email: choldgraf@berkeley.edu
 description: >- # this means to ignore newlines until "baseurl:"
   This is an example book built with Jupyter Books.
 
 baseurl: "" # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
-url: "https://jupyterbook.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: ""
 
 
 #######################################################################################
@@ -87,8 +87,7 @@ scholar:
 # Option to add a Goggle analytics tracking code
 
 # Navigate to https://analytics.google.com, add a new property for your jupyter book and copy the tracking id here.
-google_analytics:
-  mytrackingcode: UA-52617120-7
+
 
 #######################################################################################
 # Jupyter book settings you probably don't need to change
